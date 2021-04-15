@@ -41,7 +41,8 @@
     top: 0;
     left: 50%;
     width: 100vw;
-    max-width: 480px;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     padding: 48px 40px;
     overflow: scroll;
@@ -81,9 +82,7 @@
   }
 
   .mobile-menu-contacts-list {
-    display: block;
-    flex-direction: column;
-    margin-top: 302px;
+    margin-top: auto;
   }
   .mobile-menu-contacts-list__item {
     margin-bottom: 32px;
