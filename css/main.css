@@ -246,7 +246,7 @@ img {
     margin-bottom: 32px;
     font-family: var(--main-font);
     font-weight: 500;
-    font-size: calc(24 * 100vw / 480);
+    font-size: 8px;
     line-height: 1.17;
     letter-spacing: 0.02em;
   }
